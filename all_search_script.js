@@ -1,6 +1,6 @@
 // to detect if popup is enabled or not
 // alert('Please disable the popup block')
-//-- start of snippet --
+
 function PopupBlocked() {
 var PUtest = window.open(null,"","width=100,height=100");
 try { PUtest.close(); return false; }
@@ -9,14 +9,7 @@ catch(e) { return true; }
 
 if(PopupBlocked()) {
 	alert('Please disable the popup block');
-	// Custom code may replace alert()
 	}
-/*else {
-	alert('Thank you for blocking popup block');
-	// Custom code may replace alert()
-	}
-//-- end of snippet --
-*/
 
 // Calibrate Search Url
 
