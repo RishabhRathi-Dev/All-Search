@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<head>
+<link rel="stylesheet" href="all_search_design.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="all_search_script.js"></script>
+</head>
+
+<div class = "head" id = "pagehead">
+  <body>
+    <label class="head" id = "pagetitle">
+    All Search
+  </label>
+  </body>
+</div>
+
+<div class = "request" id = "popup">
+  <body>
+    Please, Disable popup block for page to function
+  </body>
+</div>
+
+
+<div class = 'search' id = 'searchbar'>
+  <form  id="form" onsubmit="return false;">
+    <input type="search" placeholder="Search" name="searchValue" autocomplete="on" id = "searched" required/>
+    <input type="submit" id = "submit-btn" onclick="forSearch();"/>
+  </form>
+</div>
+
+<div class = "categories" id = "category">
+  <p>
+    <label for="mode" style="cursor:pointer;font-weight:bold;">Select the desired category</label><br>
+    <select name="mode" id="mode">
+    <option value="General">General</option>
+    <option value="GeneralEdu">General Education</option>
+    <option value="ComputerSci">Computer Science</option>
+    <option value="Medical">Medical Education</option>
+    <option value="Entertainment">Entertainment</option>
+    <option value="All">All</option>
+    </select>
+  </p>
+</div>
