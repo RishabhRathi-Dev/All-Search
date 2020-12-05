@@ -2,17 +2,17 @@
 All Search is a redirecting search page for your query, which will redirect you to result page of top sites for the genre.
 Please visit : https://rishabhrathi-dev.github.io/All-Search/All-Search.html  to see the project at work.
 
-Currently sites we are redirecting to are:
+Sites We are redirecting to:
 
 # General :
 Google,
-Bing
+Bing.
 
 
 # General Query :
 Reddit,
-quora,
-Medium,
+Quora,
+Medium.
 
 
 # Computer Science Query :
@@ -20,7 +20,7 @@ Stackoverflow,
 GeeksforGeeks,
 Github,
 Quora,
-Reddit,
+Reddit.
 
 
 # Computer Science Theory :
@@ -28,36 +28,36 @@ GeekforGeeks,
 Programiz,
 W3schools,
 Medium,
-Youtube,
+Youtube.
 
 
 # Medical :
 Webmd,
 Mayoclinic,
-Healthline,
+Healthline.
 
 
 # Pictures :
 Stocksnap,
 Pixabay,
 Pexels,
-Unsplash,
+Unsplash.
 
 
 # Entertainment (Video) :
 Youtube,
-Dailymotion,
+Dailymotion.
 
 
 # Entertainment (Reading) :
 Medium,
 Quora,
-Reddit,
+Reddit.
 
 
 # Shopping :
 Amazon,
 Ebay,
 Flipkart,
-Google Shopping,
+Google Shopping.
 
