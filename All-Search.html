@@ -21,24 +21,24 @@
 </div>
 
 
-<div class = 'search' id = 'searchbar'>
+<div class = 'searchdiv' id = 'searchbar'>
   <form  id="form" onsubmit="return false;">
     <input type="search" placeholder="Search" name="searchValue" autocomplete="on" id = "searched" required/>
-    <input type="submit" id = "submit-btn" onclick="forSearch();"/>
+    <input type="submit" id = "submit-btn" onclick="forSearch()">
   </form>
 </div>
 
 <div class = "categories" id = "category">
-  <p>
-    <label for="mode" style="cursor:pointer;font-weight:bold;">Select the desired category</label><br>
-    <select name="mode" id="mode">
-    <option value="General">General</option>
-    <option value="GeneralEdu">General Education</option>
-    <option value="ComputerSci">Computer Science</option>
-    <option value="Medical">Medical Education</option>
-    <option value="Entertainment">Entertainment</option>
-    <option value="All">All</option>
-    </select>
-  </p>
+  <p> Select the categories: </p>
+  <input type="checkbox" id = "General" value="General" checked> General |
+  <input type="checkbox" id = "GeneralQuery" value="GeneralQuery"> General Query |
+  <input type="checkbox" id="ComputerSciQNA" value="ComputerSciQNA"> Computer Science Query |
+  <input type="checkbox" id = "ComputerSciTHEORY" value = "ComputerSciTHEORY"> Computer Science Theory |
+  <input type="checkbox" id = "Medical" value="Medical"> Medical |
+  <input type="checkbox" id = "Pictures" value="Photos"> Pictures |
+  <input type="checkbox" id = "EntertainmentVID" value="EntertainmentVID"> Entertainment (Video) |
+  <input type="checkbox" id = "EntertainmentREADING" value="EntertainmentREADING"> Entertainment (Reading) |
+  <input type="checkbox" id = "Shopping" value="Shopping"> Shopping |
+  <input type="checkbox" id = "All" value="All"> All
 </div>
 </html>
