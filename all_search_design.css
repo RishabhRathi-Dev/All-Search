@@ -8,13 +8,11 @@
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-weight : 500;
-  font-size: 7.5vw;
-
-  padding: 5%;
-
-  position: fixed;
-  top: 23%;
-  left: 28vw;
+  font-size: 8vw;
+  padding: 5;
+  position: absolute;;
+  top: 24%;
+  left: 32%;
 }
 
 input[type="search"] {
@@ -83,7 +81,7 @@ input[type="search"] {
   position: auto;
   margin: auto;
   min-height: 3.5%;
-  font-size: 1.1vw;
+  font-size: .90rem;
   font-weight: 380;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
