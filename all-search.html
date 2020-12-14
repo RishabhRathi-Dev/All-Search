@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="all_search_design.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="all_search_script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+
+<div class = "head" id = "pagehead">
+  <body>
+    <label class="head" id = "pagetitle">
+    All Search
+  </label>
+  </body>
+</div>
+
+<div class = "request" id = "popup">
+  <body>
+    Please, Disable popup block for page to function
+  </body>
+</div>
+
+
+<div class = 'searchdiv' id = 'searchbar'>
+
+  <form  id="form" onsubmit="return false;">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id = "searched" autocomplete="on" required/>
+
+    <input type="submit" id = "submit-btn" onclick="forSearch()">
+  </form>
+</div>
+
+
+<div><p> Select the categories: </p></div>
+<div class = "categories" id = "category">
+
+  <input class="form-check-input" type="checkbox" id = "General" value="General" checked> General |
+  <input class="form-check-input" type="checkbox" id = "GeneralQuery" value="GeneralQuery"> General Query |
+  <input class="form-check-input" type="checkbox" id="ComputerSciQNA" value="ComputerSciQNA"> Computer Science Query |
+  <input class="form-check-input" type="checkbox" id = "ComputerSciTHEORY" value = "ComputerSciTHEORY"> Computer Science Theory |
+  <input class="form-check-input" type="checkbox" id = "Medical" value="Medical"> Medical |
+  <input class="form-check-input" type="checkbox" id = "Pictures" value="Photos"> Pictures |
+  <input class="form-check-input" type="checkbox" id = "EntertainmentVID" value="EntertainmentVID"> Entertainment (Video) |
+  <input class="form-check-input" type="checkbox" id = "EntertainmentREADING" value="EntertainmentREADING"> Entertainment (Reading) |
+  <input class="form-check-input" type="checkbox" id = "Shopping" value="Shopping"> Shopping |
+  <input class="form-check-input" type="checkbox" id = "All" value="All"> All
+</div>
+
+
+</div>
+</html>

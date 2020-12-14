@@ -31,6 +31,7 @@ function forSearch() {
   }
 
   if(generalquery.checked == true || all.checked == true) {
+		window.open(`https://stackexchange.com/search?q=${search}`)
     window.open(`https://www.quora.com/search?q=${search}`);
     window.open(`https://www.reddit.com/search?q=${search}`);
 		window.open(`https://www.medium.com/search?q=${search}`);
