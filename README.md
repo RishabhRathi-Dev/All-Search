@@ -2,6 +2,8 @@
 All Search is a redirecting search page for your query, which will redirect you to result page of top sites for the genre.
 Please visit : https://rishabhrathi-dev.github.io/All-Search/All-Search.html  to see the project at work.
 
+*You'll get warning with the name of site which require human verification.*
+
 Sites We are redirecting to:
 
 # General :
