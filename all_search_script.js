@@ -8,6 +8,23 @@ function PopupBlocked() {
 if(PopupBlocked()) {
 	alert('Please disable the popup block');
 }
+
+// function for human verification warning
+function humanwarning() {
+
+var gq = document.getElementById("GeneralQuery");
+var cq = document.getElementById("ComputerSciQNA");
+var all = document.getElementById("All");
+
+if (gq.checked == true || all.checked == true) {
+	alert('Human Verification would be required for Stackexchange');
+}
+
+if (cq.checked == true || all.checked == true) {
+	alert('Human Verification would be required for Stakeoverflow');
+}
+
+}
 // function to search
 function forSearch() {
   var search = document.getElementById("searched").value; // to get input of what to be searched
@@ -31,18 +48,22 @@ function forSearch() {
   }
 
   if(generalquery.checked == true || all.checked == true) {
+		
 		window.open(`https://stackexchange.com/search?q=${search}`)
     window.open(`https://www.quora.com/search?q=${search}`);
     window.open(`https://www.reddit.com/search?q=${search}`);
 		window.open(`https://www.medium.com/search?q=${search}`);
+		
   }
 
 	if(computersciqna.checked == true || all.checked == true) {
+		
 		window.open(`https://www.stackoverflow.com/search?q=${search}`);
 		window.open(`https://www.geeksforgeeks.org/search?q=${search}`);
 		window.open(`https://www.github.com/search?q=${search}`);
 		window.open(`https://www.quora.com/search?q=${search}`);
 	  window.open(`https://www.reddit.com/search?q=${search}`);
+	  
 	}
 
 	if (computerscitheory.checked == true || all.checked == true) {
@@ -77,7 +98,7 @@ function forSearch() {
 	  window.open(`https://www.reddit.com/search?q=${search}`);
 	}
 
-	if (Shopping.checked == true || all.checked == true) {
+	if (shoppin.checked == true || all.checked == true) {
 		window.open(`https://www.amazon.com/s?k=${search}`);
 		window.open(`https://www.ebay.com/sch/i.html?_from=R40&_nkw=${search}`);
 		window.open(`https://www.flipkart.com/search?q=${search}`);
